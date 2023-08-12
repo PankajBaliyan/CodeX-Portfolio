@@ -469,8 +469,8 @@ function Service() {
                                                                             </h1>
                                                                         </div>
 
-                                                                        <a
-                                                                            href="../credential/index.html"
+                                                                        <Link
+                                                                            to="/credentials"
                                                                             class="about-btn"
                                                                         >
                                                                             <img
@@ -478,7 +478,7 @@ function Service() {
                                                                                 src="/assets/images/icon-2.svg"
                                                                                 alt="Button"
                                                                             />
-                                                                        </a>
+                                                                        </Link>
                                                                     </div>
                                                                 </div>
                                                             </div>

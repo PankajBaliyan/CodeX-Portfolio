@@ -27,7 +27,18 @@ function Contact() {
         // Your EmailJS user ID
         const userId = process.env.REACT_APP_USER_ID;
 
-        // TODO: also change email for official mail
+        // Validate input fields before sending the email
+        if (!name || !email || !subject || !message) {
+            handleNotify('Please fill in all fields ❌ ');
+            return;
+        }
+
+        // Validate email format
+        const isValidEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+        if (!isValidEmail) {
+            handleNotify('Invalid email format ❌ ');
+            return;
+        }
 
         // Prepare the email parameters
         const templateParams = {
@@ -36,18 +47,17 @@ function Contact() {
             from_subject: subject,
             message: message,
         };
-        //TODO : add input validation
 
         // Send the email using EmailJS
         emailjs
             .send(serviceId, templateId, templateParams, userId)
             .then((response) => {
                 handleNotify('Email Sent Successfully ✅');
-                console.log(
-                    'Email sent successfully!',
-                    response.status,
-                    response.text,
-                );
+                // console.log(
+                //     'Email sent successfully!',
+                //     response.status,
+                //     response.text,
+                // );
                 // Reset the form fields
                 setName('');
                 setEmail('');
@@ -61,7 +71,6 @@ function Contact() {
     };
 
     const handleNotify = (message) => {
-        console.log(message);
         notify(message);
     };
 
