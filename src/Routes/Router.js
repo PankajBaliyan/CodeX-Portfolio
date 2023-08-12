@@ -4,7 +4,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import { toast } from 'react-toastify';
 
 import { routes } from './routes'; // Import the routes array
-import { NotifyProvider } from './NotifyContext'; // Import the NotifyProvider
+import { NotifyProvider } from './NotifyContext';
 
 const AppRouter = () => {
     const notify = (message) => toast(message);
@@ -14,7 +14,6 @@ const AppRouter = () => {
     return (
         <NotifyProvider notify={notify}>
             {' '}
-            {/* Provide the notify function */}
             <RouterProvider router={router} />
         </NotifyProvider>
     );
