@@ -38,8 +38,6 @@ export default function Home(props) {
                                         data-widget_type="gridxdaaboutme.default"
                                     >
                                         <div className="elementor-widget-container">
-                                            {/* <!-- Star AboutMe ============================================= --> */}
-
                                             <div
                                                 data-aos="zoom-in"
                                                 className="about-me-box-wrap"
@@ -99,8 +97,6 @@ export default function Home(props) {
                                         data-widget_type="gridxdafeaturedbox.default"
                                     >
                                         <div className="elementor-widget-container">
-                                            {/* <!-- Start Featured Box ============================================= --> */}
-
                                             <div className="about-credentials-wrap">
                                                 <div data-aos="zoom-in">
                                                     <div className="banner shadow-box">
@@ -122,48 +118,6 @@ export default function Home(props) {
                                                                         alt="Star"
                                                                     />
                                                                 </span>
-                                                                {/* <span>
-                                                                    - ✅
-                                                                    Successfully
-                                                                    delivered
-                                                                    multiple
-                                                                    live
-                                                                    projects
-                                                                    <img
-                                                                        decoding="async"
-                                                                        src="/assets/images/uploads/2023/04/star1.svg"
-                                                                        alt="Star"
-                                                                    />
-                                                                </span> */}
-                                                                {/* <span>
-                                                                    - 🎥 Manage
-                                                                    a
-                                                                    tech-focused
-                                                                    YouTube
-                                                                    channel for
-                                                                    insights and
-                                                                    tutorials
-                                                                    <img
-                                                                        decoding="async"
-                                                                        src="/assets/images/uploads/2023/04/star1.svg"
-                                                                        alt="Star"
-                                                                    />
-                                                                </span> */}
-                                                                {/* <span>
-                                                                    - ♿
-                                                                    Specialize
-                                                                    in creating
-                                                                    accessible
-                                                                    and
-                                                                    SEO-optimized
-                                                                    web
-                                                                    solutions
-                                                                    <img
-                                                                        decoding="async"
-                                                                        src="/assets/images/uploads/2023/04/star1.svg"
-                                                                        alt="Star"
-                                                                    />
-                                                                </span> */}
                                                                 <span>
                                                                     👥 &nbsp;
                                                                     <b>
@@ -237,7 +191,6 @@ export default function Home(props) {
                                                         data-widget_type="gridxdacredentialbox.default"
                                                     >
                                                         <div className="elementor-widget-container">
-                                                            {/* <!-- Start Credentials Box ============================================= --> */}
                                                             <div
                                                                 data-aos="zoom-in"
                                                                 className="about-crenditials-box"
@@ -252,9 +205,10 @@ export default function Home(props) {
                                                                         decoding="async"
                                                                         src="/assets/images/uploads/2023/04/sign.png"
                                                                         alt="Sign"
+                                                                        className="imgauto"
                                                                     />
-                                                                    <div className="d-flex align-items-center justify-content-between">
-                                                                        <div className="infos">
+                                                                    <div className="d-flex mt-53 align-items-center justify-content-between mt-26">
+                                                                        <div className="infos infos1">
                                                                             <h4>
                                                                                 MORE
                                                                                 ABOUT
@@ -295,8 +249,6 @@ export default function Home(props) {
                                                         data-widget_type="gridxdaprojectbox.default"
                                                     >
                                                         <div className="elementor-widget-container">
-                                                            {/* <!-- Start Project Box ============================================= --> */}
-
                                                             <div
                                                                 data-aos="zoom-in"
                                                                 className="about-project-box"
@@ -311,6 +263,7 @@ export default function Home(props) {
                                                                         decoding="async"
                                                                         src="/assets/images/uploads/2023/04/my-works.png"
                                                                         alt="My Works"
+                                                                        className="imgauto"
                                                                     />
                                                                     <div className="d-flex align-items-center justify-content-between">
                                                                         <div className="infos">
@@ -364,8 +317,6 @@ export default function Home(props) {
                                         data-widget_type="gridxdablogbox.default"
                                     >
                                         <div className="elementor-widget-container">
-                                            {/* <!-- Start Blog Box ============================================= --> */}
-
                                             <div className="col-md-12">
                                                 <div className="blog-service-profile-wrap">
                                                     <div
@@ -436,7 +387,6 @@ export default function Home(props) {
                                         data-widget_type="gridxdaservicesbox.default"
                                     >
                                         <div className="elementor-widget-container">
-                                            {/* <!-- Start Services Box ============================================= --> */}
                                             <div className="col-md-12">
                                                 <div className="blog-service-profile-wrap d-flex gap-24">
                                                     <div
@@ -500,8 +450,6 @@ export default function Home(props) {
                                         data-widget_type="gridxdaprofilesbox.default"
                                     >
                                         <div className="elementor-widget-container">
-                                            {/* <!-- Start Profiles Box ============================================= --> */}
-
                                             <div className="col-md-12">
                                                 <div className="blog-service-profile-wrap">
                                                     <div
@@ -574,8 +522,6 @@ export default function Home(props) {
                                         data-widget_type="gridxdaclientbox.default"
                                     >
                                         <div className="elementor-widget-container">
-                                            {/* <!-- Start Client Box ============================================= --> */}
-
                                             <div
                                                 data-aos="zoom-in"
                                                 className="about-client-box-wrap"
@@ -623,8 +569,6 @@ export default function Home(props) {
                                         data-widget_type="gridxdacontactbox.default"
                                     >
                                         <div className="elementor-widget-container">
-                                            {/* <!-- Start Contact Box ============================================= --> */}
-
                                             <div
                                                 data-aos="zoom-in"
                                                 className="about-contact-box-wrap"

@@ -9,9 +9,6 @@ export default function Navbar(props) {
                     <Link className="logo" to="/">
                         <img src="/assets/images/logo-dark.svg" alt="Logo" />
                     </Link>
-
-                    {/* <!-- Collect the nav links, forms, and other content for toggling --> */}
-
                     <nav className="navbar">
                         <ul
                             data-in="#"
@@ -60,9 +57,6 @@ export default function Navbar(props) {
                     <Link to="/contact" className="theme-btn">
                         Let&#039;s talk
                     </Link>
-
-                    {/* <!-- End Navigation --> */}
-
                     <div className="show-menu">
                         <span></span>
                         <span></span>

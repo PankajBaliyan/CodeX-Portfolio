@@ -1,0 +1,179 @@
+/* Extra Small Devices (portrait phones) */
+@media only screen and (max-width: 320px) {
+    /* Your styles for extra small devices here */
+    .contact-area .contact-infos .contact-details li .right h4 {
+        font-size: 14px;
+    }
+
+    .credential-area .skills-wrap .skill-item .name {
+        width: 290px;
+    }
+
+    .service-area .service-content-wrap .service-content-inner .service-item {
+        padding: 15px 8px 15px 5px;
+    }
+}
+
+/* Small Devices (landscape phones) */
+@media only screen and (min-width: 321px) and (max-width: 480px) {
+    /* Your styles for small devices here */
+    .credential-area {
+        padding-top: 15px;
+    }
+}
+
+/* Medium Devices (tablets - portrait) */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    /* Your styles for medium devices here */
+    .credential-area > .container > .gx-row > .credential-sidebar-wrap {
+        width: 350px;
+    }
+
+    .credential-area > .container > .gx-row > .credential-sidebar-wrap {
+        margin: auto;
+    }
+
+    .credential-area {
+        padding-top: 12px;
+    }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    /* Your styles for medium devices here */
+    .info-box > img {
+        width: 43%;
+    }
+}
+
+/* Medium Devices (tablets - landscape) */
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Your styles for medium devices here */
+    .credential-area .credential-sidebar .shadow-box {
+        padding: 12px 21px 12px 21px;
+    }
+
+    .credential-area .credential-sidebar .img-box {
+        margin-bottom: 8px;
+    }
+
+    .credential-area .credential-sidebar p {
+        margin-bottom: 3px;
+    }
+
+    .h2 {
+        margin-bottom: 0rem;
+    }
+
+    .info-box.about-client-box {
+        margin-bottom: 24px;
+    }
+    .info-box > img {
+        width: 30%;
+    }
+}
+
+@media only screen and (min-width: 921px) and (max-width: 920px) {
+    /* Your styles for medium devices here */
+    .info-box > .imgauto {
+        width: auto;
+    }
+}
+@media only screen and (min-width: 921px) and (max-width: 1024px) {
+    /* Your styles for medium devices here */
+    .infos h1 {
+        font-size: 20px !important;
+    }
+    .info-box > img {
+        width: 91%;
+    }
+    .infos1 {
+        margin-top: 13px;
+    }
+    .about-area .about-me-box .infos .about-btn {
+        bottom: 5px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 920px) {
+    /* Your styles for medium devices here */
+    .mt-26 {
+        margin-top: 26px;
+    }
+}
+@media only screen and (min-width: 975px) and (max-width: 1004px) {
+    .about-area .about-me-box .infos {
+        padding-bottom: 24px;
+    }
+}
+@media only screen and (min-width: 1005px) and (max-width: 1024px) {
+    .about-area .about-me-box .infos h1 {
+        font-size: 24px !important;
+    }
+    .about-area .about-me-box .img-box {
+        margin-bottom: 32px;
+    }
+}
+
+/* Large Devices (small desktops) */
+@media only screen and (min-width: 1091px) and (max-width: 1154px) {
+    /* Your styles for large devices here */
+    .about-area .about-me-box .infos h4 {
+        font-size: 11px;
+    }
+    .about-area .about-me-box .infos h1 {
+        font-size: 25px;
+    }
+}
+@media only screen and (min-width: 1025px) and (max-width: 1366px) {
+    /* Your styles for large devices here */
+    .info-box.about-contact-box {
+        padding-bottom: 29px;
+        padding-top: 75px;
+    }
+
+    .spacing-1060 {
+        margin-top: 26px;
+    }
+
+    .contact-area .contact-infos .contact-details li .right h4 {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 1025px) and (max-width: 1038px) {
+    /* Your styles for large devices here */
+
+    .about-area .about-me-box .infos h1 {
+        font-size: 29px;
+    }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1366px) {
+    /* Your styles for large devices here */
+
+    .info-box.about-contact-box {
+        padding-bottom: 55px;
+        padding-top: 95px;
+    }
+
+    .info-box .inner-profile-icons {
+        margin-bottom: 21px;
+    }
+
+    .credential-area .skills-wrap .skill-item .name {
+        width: 250px !important;
+    }
+}
+
+/* Large Devices (medium desktops) */
+@media only screen and (min-width: 1367px) and (max-width: 1600px) {
+    /* Your styles for large devices here */
+}
+
+/* Large Devices (large desktops) */
+@media only screen and (min-width: 1601px) and (max-width: 1920px) {
+    /* Your styles for large devices here */
+}
+
+/* Extra Large Devices (extra large desktops) */
+@media only screen and (min-width: 1921px) {
+    /* Your styles for extra large devices here */
+}
