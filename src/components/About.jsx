@@ -42,8 +42,6 @@ export class About extends Component {
                                                             data-widget_type="gridxdaaboutimg.default"
                                                         >
                                                             <div className="elementor-widget-container">
-                                                                {/* <!-- Star AboutImage ============================================= --> */}
-
                                                                 <div
                                                                     data-aos="zoom-in"
                                                                     className="about-image-box-wrap"
@@ -75,8 +73,6 @@ export class About extends Component {
                                                             data-widget_type="gridxdaaboutdetail.default"
                                                         >
                                                             <div className="elementor-widget-container">
-                                                                {/* <!-- Start AboutDetail ============================================= --> */}
-
                                                                 <div
                                                                     className="about-details"
                                                                     data-aos="zoom-in"
@@ -230,8 +226,6 @@ export class About extends Component {
                                                             data-widget_type="gridxdaexperiencebox.default"
                                                         >
                                                             <div className="elementor-widget-container">
-                                                                {/* <!-- Start Experience ============================================= --> */}
-
                                                                 <div data-aos="zoom-in">
                                                                     <div className="about-edc-exp about-experience shadow-box">
                                                                         <h3>
@@ -297,8 +291,6 @@ export class About extends Component {
                                                             data-widget_type="gridxdaeducationbox.default"
                                                         >
                                                             <div className="elementor-widget-container">
-                                                                {/* <!-- Start Education ============================================= --> */}
-
                                                                 <div data-aos="zoom-in">
                                                                     <div className="about-edc-exp about-education shadow-box">
                                                                         <h3>
@@ -387,8 +379,6 @@ export class About extends Component {
                                                             data-widget_type="gridxdaprofilesbox.default"
                                                         >
                                                             <div className="elementor-widget-container">
-                                                                {/* <!-- Start Profiles Box ============================================= --> */}
-
                                                                 <div className="col-md-12">
                                                                     <div className="blog-service-profile-wrap">
                                                                         <div
@@ -447,8 +437,6 @@ export class About extends Component {
                                                             data-widget_type="gridxdacontactbox.default"
                                                         >
                                                             <div className="elementor-widget-container">
-                                                                {/* <!-- Start Contact Box ============================================= --> */}
-
                                                                 <div
                                                                     data-aos="zoom-in"
                                                                     className="about-contact-box-wrap"
@@ -503,9 +491,8 @@ export class About extends Component {
                                                             data-widget_type="gridxdacredentialbox.default"
                                                         >
                                                             <div className="elementor-widget-container">
-                                                                {/* <!-- Start Credentials Box ============================================= --> */}
                                                                 <div data-aos="zoom-in">
-                                                                    <div className="info-box shadow-box h-full">
+                                                                    <div className="info-box info-box1 shadow-box h-full">
                                                                         <Link
                                                                             className="overlay-link"
                                                                             to="/credentials"
@@ -516,7 +503,7 @@ export class About extends Component {
                                                                             src="/assets/images/uploads/2023/04/sign.png"
                                                                             alt="Sign"
                                                                         />
-                                                                        <div className="d-flex align-items-center justify-content-between">
+                                                                        <div className="d-flex align-items-center justify-content-between spacing-1060">
                                                                             <div className="infos">
                                                                                 <h4>
                                                                                     MORE

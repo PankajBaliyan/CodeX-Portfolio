@@ -3,69 +3,67 @@ import { Link } from 'react-router-dom';
 
 function Service() {
     return (
-        <section class="service-area">
-            <div class="container">
+        <section className="service-area">
+            <div className="container">
                 <div
                     data-elementor-type="wp-page"
                     data-elementor-id="1119"
-                    class="elementor elementor-1119"
+                    className="elementor elementor-1119"
                 >
                     <section
-                        class="elementor-section elementor-top-section elementor-element elementor-element-c057728 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                        className="elementor-section elementor-top-section elementor-element elementor-element-c057728 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                         data-id="c057728"
                         data-element_type="section"
                     >
-                        <div class="elementor-container elementor-column-gap-default">
+                        <div className="elementor-container elementor-column-gap-default">
                             <div
-                                class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5690479"
+                                className="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5690479"
                                 data-id="5690479"
                                 data-element_type="column"
                             >
-                                <div class="elementor-widget-wrap elementor-element-populated">
+                                <div className="elementor-widget-wrap elementor-element-populated">
                                     <section
-                                        class="elementor-section elementor-inner-section elementor-element elementor-element-44fca9a elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                        className="elementor-section elementor-inner-section elementor-element elementor-element-44fca9a elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                         data-id="44fca9a"
                                         data-element_type="section"
                                     >
-                                        <div class="elementor-container elementor-column-gap-default">
+                                        <div className="elementor-container elementor-column-gap-default">
                                             <div
-                                                class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-7a7fa3f"
+                                                className="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-7a7fa3f"
                                                 data-id="7a7fa3f"
                                                 data-element_type="column"
                                             >
-                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                <div className="elementor-widget-wrap elementor-element-populated">
                                                     <div
-                                                        class="elementor-element elementor-element-4635d00 h-100 elementor-widget elementor-widget-gridxdaservicesidebar"
+                                                        className="elementor-element elementor-element-4635d00 h-100 elementor-widget elementor-widget-gridxdaservicesidebar"
                                                         data-id="4635d00"
                                                         data-element_type="widget"
                                                         data-widget_type="gridxdaservicesidebar.default"
                                                     >
-                                                        <div class="elementor-widget-container">
-                                                            {/* <!-- Start ServiceSidebar ============================================= --> */}
-                                                            {/* <!-- Sidebar --> */}
+                                                        <div className="elementor-widget-container">
                                                             <div
-                                                                class="service-sidebar"
+                                                                className="service-sidebar"
                                                                 data-aos="fade-right"
                                                             >
-                                                                <div class="service-sidebar-inner shadow-box">
+                                                                <div className="service-sidebar-inner shadow-box">
                                                                     <ul>
                                                                         <li>
-                                                                            <i class="iconoir-code icon"></i>
+                                                                            <i className="iconoir-code icon"></i>
                                                                             Web
                                                                             Development{' '}
                                                                         </li>
                                                                         <li>
-                                                                            <i class="iconoir-search icon"></i>
+                                                                            <i className="iconoir-search icon"></i>
                                                                             SEO
                                                                             Optimization{' '}
                                                                         </li>
                                                                         <li>
-                                                                            <i class="iconoir-accessibility icon"></i>
+                                                                            <i className="iconoir-accessibility icon"></i>
                                                                             Accessibility
                                                                             Strategy{' '}
                                                                         </li>
                                                                         <li>
-                                                                            <i class="iconoir-computer icon"></i>
+                                                                            <i className="iconoir-computer icon"></i>
                                                                             IT &
                                                                             Technology{' '}
                                                                         </li>
@@ -77,24 +75,20 @@ function Service() {
                                                 </div>
                                             </div>
                                             <div
-                                                class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-b02c996"
+                                                className="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-b02c996"
                                                 data-id="b02c996"
                                                 data-element_type="column"
                                             >
-                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                <div className="elementor-widget-wrap elementor-element-populated">
                                                     <div
-                                                        class="elementor-element elementor-element-ad8c673 elementor-widget elementor-widget-gridxdaservicecontentbox"
+                                                        className="elementor-element elementor-element-ad8c673 elementor-widget elementor-widget-gridxdaservicecontentbox"
                                                         data-id="ad8c673"
                                                         data-element_type="widget"
                                                         data-widget_type="gridxdaservicecontentbox.default"
                                                     >
-                                                        <div class="elementor-widget-container">
-                                                            {/* <!-- Start AboutDetail ============================================= --> */}
-
-                                                            {/* <!-- Content --> */}
-
+                                                        <div className="elementor-widget-container">
                                                             <h1
-                                                                class="section-heading"
+                                                                className="section-heading"
                                                                 data-aos="fade-up"
                                                             >
                                                                 <img
@@ -111,12 +105,12 @@ function Service() {
                                                             </h1>
 
                                                             <div
-                                                                class="service-content-wrap"
+                                                                className="service-content-wrap"
                                                                 data-aos="zoom-in"
                                                             >
-                                                                <div class="service-content-inner shadow-box">
-                                                                    <div class="service-items">
-                                                                        <div class="service-item">
+                                                                <div className="service-content-inner shadow-box">
+                                                                    <div className="service-items">
+                                                                        <div className="service-item">
                                                                             <h3>
                                                                                 Web
                                                                                 Development
@@ -154,7 +148,7 @@ function Service() {
                                                                             interfaces
                                                                             .{' '}
                                                                         </div>
-                                                                        <div class="service-item">
+                                                                        <div className="service-item">
                                                                             <h3>
                                                                                 SEO
                                                                                 Optimization
@@ -199,7 +193,7 @@ function Service() {
                                                                             search
                                                                             engines.{' '}
                                                                         </div>
-                                                                        <div class="service-item">
+                                                                        <div className="service-item">
                                                                             <h3>
                                                                                 Accessibility
                                                                                 Strategy
@@ -243,7 +237,7 @@ function Service() {
                                                                             digital
                                                                             landscape.{' '}
                                                                         </div>
-                                                                        <div class="service-item">
+                                                                        <div className="service-item">
                                                                             <h3>
                                                                                 IT
                                                                                 &
@@ -297,56 +291,54 @@ function Service() {
                         </div>
                     </section>
                     <section
-                        class="elementor-section elementor-top-section elementor-element elementor-element-d3ed86a elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                        className="elementor-section elementor-top-section elementor-element elementor-element-d3ed86a elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                         data-id="d3ed86a"
                         data-element_type="section"
                     >
-                        <div class="elementor-container elementor-column-gap-default">
+                        <div className="elementor-container elementor-column-gap-default">
                             <div
-                                class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-73c83d4"
+                                className="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-73c83d4"
                                 data-id="73c83d4"
                                 data-element_type="column"
                             >
-                                <div class="elementor-widget-wrap elementor-element-populated">
+                                <div className="elementor-widget-wrap elementor-element-populated">
                                     <section
-                                        class="elementor-section elementor-inner-section elementor-element elementor-element-e33f508 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                                        className="elementor-section elementor-inner-section elementor-element elementor-element-e33f508 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                                         data-id="e33f508"
                                         data-element_type="section"
                                     >
-                                        <div class="elementor-container elementor-column-gap-default">
+                                        <div className="elementor-container elementor-column-gap-default">
                                             <div
-                                                class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-822f062"
+                                                className="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-822f062"
                                                 data-id="822f062"
                                                 data-element_type="column"
                                             >
-                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                <div className="elementor-widget-wrap elementor-element-populated">
                                                     <div
-                                                        class="elementor-element elementor-element-031f9cc elementor-widget elementor-widget-gridxdaprofilesbox"
+                                                        className="elementor-element elementor-element-031f9cc elementor-widget elementor-widget-gridxdaprofilesbox"
                                                         data-id="031f9cc"
                                                         data-element_type="widget"
                                                         data-widget_type="gridxdaprofilesbox.default"
                                                     >
-                                                        <div class="elementor-widget-container">
-                                                            {/* <!-- Start Profiles Box ============================================= --> */}
-
-                                                            <div class="col-md-12">
-                                                                <div class="blog-service-profile-wrap">
+                                                        <div className="elementor-widget-container">
+                                                            <div className="col-md-12">
+                                                                <div className="blog-service-profile-wrap">
                                                                     <div
                                                                         data-aos="zoom-in"
-                                                                        class="about-profile-box-wrap"
+                                                                        className="about-profile-box-wrap"
                                                                     >
-                                                                        <div class="about-profile-box info-box shadow-box h-full">
-                                                                            <div class="inner-profile-icons shadow-box">
+                                                                        <div className="about-profile-box info-box shadow-box h-full">
+                                                                            <div className="inner-profile-icons shadow-box">
                                                                                 <Link to="https://github.com/PankajBaliyan">
-                                                                                    <i class="iconoir-github"></i>
+                                                                                    <i className="iconoir-github"></i>
                                                                                 </Link>
 
                                                                                 <Link to="https://www.linkedin.com/in/pankaj-kumar-90/">
-                                                                                    <i class="iconoir-linkedin"></i>
+                                                                                    <i className="iconoir-linkedin"></i>
                                                                                 </Link>
                                                                             </div>
-                                                                            <div class="d-flex align-items-center justify-content-between">
-                                                                                <div class="infos">
+                                                                            <div className="d-flex align-items-center justify-content-between">
+                                                                                <div className="infos">
                                                                                     <h4>
                                                                                         STAY
                                                                                         WITH
@@ -359,7 +351,7 @@ function Service() {
 
                                                                                 <Link
                                                                                     to="/contact"
-                                                                                    class="about-btn"
+                                                                                    className="about-btn"
                                                                                 >
                                                                                     <img
                                                                                         decoding="async"
@@ -377,27 +369,25 @@ function Service() {
                                                 </div>
                                             </div>
                                             <div
-                                                class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-e325eec"
+                                                className="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-e325eec"
                                                 data-id="e325eec"
                                                 data-element_type="column"
                                             >
-                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                <div className="elementor-widget-wrap elementor-element-populated">
                                                     <div
-                                                        class="elementor-element elementor-element-983e78f elementor-widget elementor-widget-gridxdacontactbox"
+                                                        className="elementor-element elementor-element-983e78f elementor-widget elementor-widget-gridxdacontactbox"
                                                         data-id="983e78f"
                                                         data-element_type="widget"
                                                         data-widget_type="gridxdacontactbox.default"
                                                     >
-                                                        <div class="elementor-widget-container">
-                                                            {/* <!-- Start Contact Box ============================================= --> */}
-
+                                                        <div className="elementor-widget-container">
                                                             <div
                                                                 data-aos="zoom-in"
-                                                                class="about-contact-box-wrap"
+                                                                className="about-contact-box-wrap"
                                                             >
-                                                                <div class="about-contact-box info-box shadow-box">
+                                                                <div className="about-contact-box info-box shadow-box">
                                                                     <Link
-                                                                        class="overlay-link"
+                                                                        className="overlay-link"
                                                                         to="/contact"
                                                                     ></Link>
 
@@ -405,7 +395,7 @@ function Service() {
                                                                         decoding="async"
                                                                         src="/assets/images/icon2-2.png"
                                                                         alt="Icon"
-                                                                        class="star-icon"
+                                                                        className="star-icon"
                                                                     />
 
                                                                     <h1>
@@ -417,7 +407,7 @@ function Service() {
                                                                     </h1>
                                                                     <Link
                                                                         to="/contact"
-                                                                        class="about-btn"
+                                                                        className="about-btn"
                                                                     >
                                                                         <img
                                                                             decoding="async"
@@ -432,23 +422,22 @@ function Service() {
                                                 </div>
                                             </div>
                                             <div
-                                                class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-f093cd1"
+                                                className="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-f093cd1"
                                                 data-id="f093cd1"
                                                 data-element_type="column"
                                             >
-                                                <div class="elementor-widget-wrap elementor-element-populated">
+                                                <div className="elementor-widget-wrap elementor-element-populated">
                                                     <div
-                                                        class="elementor-element elementor-element-ee2d870 elementor-widget elementor-widget-gridxdacredentialbox"
+                                                        className="elementor-element elementor-element-ee2d870 elementor-widget elementor-widget-gridxdacredentialbox"
                                                         data-id="ee2d870"
                                                         data-element_type="widget"
                                                         data-widget_type="gridxdacredentialbox.default"
                                                     >
-                                                        <div class="elementor-widget-container">
-                                                            {/* <!-- Start Credentials Box ============================================= --> */}
+                                                        <div className="elementor-widget-container">
                                                             <div data-aos="zoom-in">
-                                                                <div class="info-box shadow-box h-full">
+                                                                <div className="info-box info-box1 shadow-box h-full">
                                                                     <Link
-                                                                        class="overlay-link"
+                                                                        className="overlay-link"
                                                                         to="/credentials"
                                                                     ></Link>
 
@@ -457,8 +446,8 @@ function Service() {
                                                                         src="/assets/images/uploads/2023/04/sign.png"
                                                                         alt="Sign"
                                                                     />
-                                                                    <div class="d-flex align-items-center justify-content-between">
-                                                                        <div class="infos">
+                                                                    <div className="d-flex align-items-center justify-content-between">
+                                                                        <div className="infos">
                                                                             <h4>
                                                                                 MORE
                                                                                 ABOUT
@@ -471,7 +460,7 @@ function Service() {
 
                                                                         <Link
                                                                             to="/credentials"
-                                                                            class="about-btn"
+                                                                            className="about-btn"
                                                                         >
                                                                             <img
                                                                                 decoding="async"

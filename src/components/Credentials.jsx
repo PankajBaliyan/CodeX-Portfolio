@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 
 function Credentials() {
     return (
-        <section class="credential-area">
-            <div class="container">
-                <div class="gx-row d-flex">
-                    <div class="credential-sidebar-wrap" data-aos="zoom-in">
-                        <div class="credential-sidebar text-center">
-                            <div class="shadow-box">
-                                <div class="img-box">
+        <section className="credential-area">
+            <div className="container">
+                <div className="gx-row d-flex">
+                    <div className="credential-sidebar-wrap" data-aos="zoom-in">
+                        <div className="credential-sidebar text-center">
+                            <div className="shadow-box">
+                                <div className="img-box">
                                     <img
                                         src="/assets/images/me2.jpg"
                                         alt="About Me"
@@ -18,13 +18,13 @@ function Credentials() {
                                 <h2>Pankaj Kumar</h2>
                                 <p>@CodeWithPankaj</p>
 
-                                <ul class="social-links d-flex justify-content-center">
+                                <ul className="social-links d-flex justify-content-center">
                                     <li>
                                         <Link
                                             to="https://www.linkedin.com/in/pankaj-kumar-90"
                                             target="_blank"
                                         >
-                                            <i class="iconoir-linkedin"></i>
+                                            <i className="iconoir-linkedin"></i>
                                         </Link>
                                     </li>{' '}
                                     <li>
@@ -32,7 +32,7 @@ function Credentials() {
                                             to="https://github.com/pankajbaliyan"
                                             target="_blank"
                                         >
-                                            <i class="iconoir-github"></i>
+                                            <i className="iconoir-github"></i>
                                         </Link>
                                     </li>
                                     <li>
@@ -40,12 +40,12 @@ function Credentials() {
                                             to="https://www.youtube.com/c/CodeWithPankaj1?sub_confirmation=1"
                                             target="_blank"
                                         >
-                                            <i class="iconoir-youtube"></i>
+                                            <i className="iconoir-youtube"></i>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link to="mailto:pankajbaliyan90@gmail.com">
-                                            <i class="iconoir-mail"></i>
+                                            <i className="iconoir-mail"></i>
                                         </Link>
                                     </li>
                                 </ul>
@@ -53,10 +53,10 @@ function Credentials() {
                                 <Link
                                     to="https://drive.google.com/file/d/1obJzdRwMp9SDr-elyP03yC7rDhV98QTX/view"
                                     target="_blank"
-                                    class="theme-btn d-flex justify-content-evenly align-items-center"
+                                    className="theme-btn d-flex justify-content-evenly align-items-center"
                                 >
                                     Resume
-                                    <i class="iconoir-download"></i>
+                                    <i className="iconoir-download"></i>
                                 </Link>
                             </div>
                         </div>
@@ -65,32 +65,30 @@ function Credentials() {
                     <div
                         data-elementor-type="wp-page"
                         data-elementor-id="1065"
-                        class="elementor elementor-1065"
+                        className="elementor elementor-1065"
                     >
                         <section
-                            class="elementor-section elementor-top-section elementor-element elementor-element-6d57135 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                            className="elementor-section elementor-top-section elementor-element elementor-element-6d57135 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
                             data-id="6d57135"
                             data-element_type="section"
                         >
-                            <div class="elementor-container elementor-column-gap-no">
+                            <div className="elementor-container elementor-column-gap-no">
                                 <div
-                                    class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2705f96 margin-0"
+                                    className="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-2705f96 margin-0"
                                     data-id="2705f96"
                                     data-element_type="column"
                                 >
-                                    <div class="elementor-widget-wrap elementor-element-populated">
+                                    <div className="elementor-widget-wrap elementor-element-populated">
                                         <div
-                                            class="elementor-element elementor-element-35461e7 elementor-widget elementor-widget-gridxdacredentialcontentbox"
+                                            className="elementor-element elementor-element-35461e7 elementor-widget elementor-widget-gridxdacredentialcontentbox"
                                             data-id="35461e7"
                                             data-element_type="widget"
                                             data-widget_type="gridxdacredentialcontentbox.default"
                                         >
-                                            <div class="elementor-widget-container">
-                                                {/* <!-- Start Credentials Content Box ============================================= --> */}
-
-                                                <div class="credential-content flex-1">
+                                            <div className="elementor-widget-container">
+                                                <div className="credential-content flex-1">
                                                     <div
-                                                        class="credential-about"
+                                                        className="credential-about"
                                                         data-aos="zoom-in"
                                                     >
                                                         <h2>About Me</h2>
@@ -148,12 +146,12 @@ function Credentials() {
                                                         </p>{' '}
                                                     </div>
 
-                                                    <div class="credential-edc-exp credential-experience">
+                                                    <div className="credential-edc-exp credential-experience">
                                                         <h2 data-aos="fade-up">
                                                             EXPERIENCE
                                                         </h2>
                                                         <div
-                                                            class="credential-edc-exp-item"
+                                                            className="credential-edc-exp-item"
                                                             data-aos="zoom-in"
                                                         >
                                                             <h4>
@@ -189,7 +187,7 @@ function Credentials() {
                                                             performance.{' '}
                                                         </div>
                                                         <div
-                                                            class="credential-edc-exp-item"
+                                                            className="credential-edc-exp-item"
                                                             data-aos="zoom-in"
                                                         >
                                                             <h4>
@@ -222,12 +220,12 @@ function Credentials() {
                                                         </div>
                                                     </div>
 
-                                                    <div class="credential-edc-exp credential-education">
+                                                    <div className="credential-edc-exp credential-education">
                                                         <h2 data-aos="fade-up">
                                                             Education
                                                         </h2>
                                                         <div
-                                                            class="credential-edc-exp-item"
+                                                            className="credential-edc-exp-item"
                                                             data-aos="zoom-in"
                                                         >
                                                             <h4>
@@ -272,7 +270,7 @@ function Credentials() {
                                                             digital realm.{' '}
                                                         </div>
                                                         <div
-                                                            class="credential-edc-exp-item"
+                                                            className="credential-edc-exp-item"
                                                             data-aos="zoom-in"
                                                         >
                                                             <h4>
@@ -320,19 +318,19 @@ function Credentials() {
                                                         </div>
                                                     </div>
 
-                                                    <div class="skills-wrap pb-5">
+                                                    <div className="skills-wrap pb-5">
                                                         <h2 data-aos="fade-up">
                                                             Technical Skills
                                                         </h2>
-                                                        <div class="d-grid skill-items gap-24 flex-wrap">
+                                                        <div className="d-grid skill-items gap-24 flex-wrap">
                                                             <div
-                                                                class="skill-item"
+                                                                className="skill-item"
                                                                 data-aos="zoom-in"
                                                             >
-                                                                <span class="percent">
+                                                                <span className="percent">
                                                                     81%
                                                                 </span>
-                                                                <h3 class="name">
+                                                                <h3 className="name">
                                                                     React
                                                                 </h3>
                                                                 <p>
@@ -341,13 +339,13 @@ function Credentials() {
                                                                 </p>
                                                             </div>
                                                             <div
-                                                                class="skill-item"
+                                                                className="skill-item"
                                                                 data-aos="zoom-in"
                                                             >
-                                                                <span class="percent">
+                                                                <span className="percent">
                                                                     85%
                                                                 </span>
-                                                                <h3 class="name">
+                                                                <h3 className="name">
                                                                     JavaScript
                                                                 </h3>
                                                                 <p>
@@ -356,13 +354,13 @@ function Credentials() {
                                                                 </p>
                                                             </div>
                                                             <div
-                                                                class="skill-item"
+                                                                className="skill-item"
                                                                 data-aos="zoom-in"
                                                             >
-                                                                <span class="percent">
+                                                                <span className="percent">
                                                                     89%
                                                                 </span>
-                                                                <h3 class="name">
+                                                                <h3 className="name">
                                                                     MongoDB
                                                                 </h3>
                                                                 <p>
@@ -371,13 +369,13 @@ function Credentials() {
                                                                 </p>
                                                             </div>
                                                             <div
-                                                                class="skill-item"
+                                                                className="skill-item"
                                                                 data-aos="zoom-in"
                                                             >
-                                                                <span class="percent">
+                                                                <span className="percent">
                                                                     94%
                                                                 </span>
-                                                                <h3 class="name">
+                                                                <h3 className="name">
                                                                     Node.js
                                                                 </h3>
                                                                 <p>
@@ -386,13 +384,13 @@ function Credentials() {
                                                                 </p>
                                                             </div>
                                                             <div
-                                                                class="skill-item"
+                                                                className="skill-item"
                                                                 data-aos="zoom-in"
                                                             >
-                                                                <span class="percent">
+                                                                <span className="percent">
                                                                     82%
                                                                 </span>
-                                                                <h3 class="name">
+                                                                <h3 className="name">
                                                                     Redux
                                                                 </h3>
                                                                 <p>
@@ -401,13 +399,13 @@ function Credentials() {
                                                                 </p>
                                                             </div>
                                                             <div
-                                                                class="skill-item"
+                                                                className="skill-item"
                                                                 data-aos="zoom-in"
                                                             >
-                                                                <span class="percent">
+                                                                <span className="percent">
                                                                     88%
                                                                 </span>
-                                                                <h3 class="name">
+                                                                <h3 className="name">
                                                                     Express.js
                                                                 </h3>
                                                                 <p>
@@ -416,13 +414,13 @@ function Credentials() {
                                                                 </p>
                                                             </div>
                                                             <div
-                                                                class="skill-item"
+                                                                className="skill-item"
                                                                 data-aos="zoom-in"
                                                             >
-                                                                <span class="percent">
+                                                                <span className="percent">
                                                                     93%
                                                                 </span>
-                                                                <h3 class="name">
+                                                                <h3 className="name">
                                                                     GitHub
                                                                 </h3>
                                                                 <p>
@@ -431,13 +429,13 @@ function Credentials() {
                                                                 </p>
                                                             </div>
                                                             <div
-                                                                class="skill-item"
+                                                                className="skill-item"
                                                                 data-aos="zoom-in"
                                                             >
-                                                                <span class="percent">
+                                                                <span className="percent">
                                                                     96%
                                                                 </span>
-                                                                <h3 class="name">
+                                                                <h3 className="name">
                                                                     DSA
                                                                 </h3>
                                                                 <p>
@@ -448,16 +446,16 @@ function Credentials() {
                                                         </div>
                                                     </div>
 
-                                                    <div class="skills-wrap mt-5 pb-5">
+                                                    <div className="skills-wrap mt-5 pb-5">
                                                         <h2 data-aos="fade-up">
                                                             Soft Skills
                                                         </h2>
-                                                        <div class="d-grid skill-items gap-24 flex-wrap">
+                                                        <div className="d-grid skill-items gap-24 flex-wrap">
                                                             <div
-                                                                class="skill-item"
+                                                                className="skill-item"
                                                                 data-aos="zoom-in"
                                                             >
-                                                                <h3 class="name">
+                                                                <h3 className="name">
                                                                     Communication
                                                                 </h3>
                                                                 <p>
@@ -466,10 +464,10 @@ function Credentials() {
                                                                 </p>
                                                             </div>
                                                             <div
-                                                                class="skill-item"
+                                                                className="skill-item"
                                                                 data-aos="zoom-in"
                                                             >
-                                                                <h3 class="name">
+                                                                <h3 className="name">
                                                                     IT Sector
                                                                     Knowledge
                                                                 </h3>
@@ -479,10 +477,10 @@ function Credentials() {
                                                                 </p>
                                                             </div>
                                                             <div
-                                                                class="skill-item"
+                                                                className="skill-item"
                                                                 data-aos="zoom-in"
                                                             >
-                                                                <h3 class="name">
+                                                                <h3 className="name">
                                                                     Teamwork
                                                                 </h3>
                                                                 <p>
@@ -491,10 +489,10 @@ function Credentials() {
                                                                 </p>
                                                             </div>
                                                             <div
-                                                                class="skill-item"
+                                                                className="skill-item"
                                                                 data-aos="zoom-in"
                                                             >
-                                                                <h3 class="name">
+                                                                <h3 className="name">
                                                                     Critical
                                                                     Thinking
                                                                 </h3>
@@ -506,16 +504,16 @@ function Credentials() {
                                                         </div>
                                                     </div>
 
-                                                    <div class="skills-wrap mt-5">
+                                                    <div className="skills-wrap mt-5">
                                                         <h2 data-aos="fade-up">
                                                             Awards
                                                         </h2>
-                                                        <div class="d-grid skill-items gap-24 flex-wrap">
+                                                        <div className="d-grid skill-items gap-24 flex-wrap">
                                                             <div
-                                                                class="skill-item"
+                                                                className="skill-item"
                                                                 data-aos="zoom-in"
                                                             >
-                                                                <h3 class="name">
+                                                                <h3 className="name">
                                                                     400+ DSA
                                                                     Questions
                                                                 </h3>
@@ -525,10 +523,10 @@ function Credentials() {
                                                                 </p>
                                                             </div>
                                                             <div
-                                                                class="skill-item"
+                                                                className="skill-item"
                                                                 data-aos="zoom-in"
                                                             >
-                                                                <h3 class="name">
+                                                                <h3 className="name">
                                                                     CoCubes
                                                                     Score 72%
                                                                 </h3>
@@ -538,10 +536,10 @@ function Credentials() {
                                                                 </p>
                                                             </div>
                                                             <div
-                                                                class="skill-item"
+                                                                className="skill-item"
                                                                 data-aos="zoom-in"
                                                             >
-                                                                <h3 class="name">
+                                                                <h3 className="name">
                                                                     GDG Gurugram
                                                                     Member
                                                                 </h3>
@@ -552,10 +550,10 @@ function Credentials() {
                                                                 </p>
                                                             </div>
                                                             <div
-                                                                class="skill-item"
+                                                                className="skill-item"
                                                                 data-aos="zoom-in"
                                                             >
-                                                                <h3 class="name">
+                                                                <h3 className="name">
                                                                     2022 Batch
                                                                     (College)
                                                                     1st

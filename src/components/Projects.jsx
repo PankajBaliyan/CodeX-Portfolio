@@ -29,8 +29,6 @@ function Projects() {
                                         data-widget_type="gridxdaworktitlebox.default"
                                     >
                                         <div className="elementor-widget-container">
-                                            {/* <!-- Start Work ============================================= --> */}
-
                                             <h1
                                                 className="section-heading"
                                                 data-aos="fade-up"
@@ -56,8 +54,6 @@ function Projects() {
                                         data-widget_type="gridxdaworksidebarbox.default"
                                     >
                                         <div className="elementor-widget-container">
-                                            {/* <!-- Start Work ============================================= --> */}
-
                                             <div data-aos="zoom-in">
                                                 <div className="project-item shadow-box">
                                                     <Link
@@ -225,8 +221,6 @@ function Projects() {
                                         data-widget_type="gridxdaworktitlebox.default"
                                     >
                                         <div className="elementor-widget-container">
-                                            {/* <!-- Start Work ============================================= --> */}
-
                                             <h1
                                                 className="section-heading"
                                                 data-aos="fade-up"
@@ -264,8 +258,6 @@ function Projects() {
                                                         data-widget_type="gridxdaworkcontentbox.default"
                                                     >
                                                         <div className="elementor-widget-container">
-                                                            {/* <!-- Start Work ============================================= --> */}
-
                                                             <div className="d-flex align-items-start gap-24">
                                                                 <div
                                                                     data-aos="zoom-in"
@@ -322,8 +314,6 @@ function Projects() {
                                                         data-widget_type="gridxdaworkcontentbox.default"
                                                     >
                                                         <div className="elementor-widget-container">
-                                                            {/* <!-- Start Work ============================================= --> */}
-
                                                             <div className="d-flex align-items-start gap-24">
                                                                 <div
                                                                     data-aos="zoom-in"
@@ -378,8 +368,6 @@ function Projects() {
                                                         data-widget_type="gridxdaworkcontentbox.default"
                                                     >
                                                         <div className="elementor-widget-container">
-                                                            {/* <!-- Start Work ============================================= --> */}
-
                                                             <div className="d-flex align-items-start gap-24">
                                                                 <div
                                                                     data-aos="zoom-in"
@@ -433,8 +421,6 @@ function Projects() {
                                                         data-widget_type="gridxdaworkcontentbox.default"
                                                     >
                                                         <div className="elementor-widget-container">
-                                                            {/* <!-- Start Work ============================================= --> */}
-
                                                             <div className="d-flex align-items-start gap-24">
                                                                 <div
                                                                     data-aos="zoom-in"
@@ -498,8 +484,6 @@ function Projects() {
                                                         data-widget_type="gridxdaworkcontentbox.default"
                                                     >
                                                         <div className="elementor-widget-container">
-                                                            {/* <!-- Start Work ============================================= --> */}
-
                                                             <div className="d-flex align-items-start gap-24">
                                                                 <div
                                                                     data-aos="zoom-in"
@@ -553,8 +537,6 @@ function Projects() {
                                                         data-widget_type="gridxdaworkcontentbox.default"
                                                     >
                                                         <div className="elementor-widget-container">
-                                                            {/* <!-- Start Work ============================================= --> */}
-
                                                             <div className="d-flex align-items-start gap-24">
                                                                 <div
                                                                     data-aos="zoom-in"
@@ -608,8 +590,6 @@ function Projects() {
                                                         data-widget_type="gridxdaworkcontentbox.default"
                                                     >
                                                         <div className="elementor-widget-container">
-                                                            {/* <!-- Start Work ============================================= --> */}
-
                                                             <div className="d-flex align-items-start gap-24">
                                                                 <div
                                                                     data-aos="zoom-in"

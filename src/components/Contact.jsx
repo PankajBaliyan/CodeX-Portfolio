@@ -99,7 +99,6 @@ function Contact() {
                                 data-widget_type="gridxdacontactinfobox.default"
                             >
                                 <div className="elementor-widget-container">
-                                    {/* <!-- Start Contact  Box ============================================= --> */}
                                     <section className="contact-area">
                                         <div className="container">
                                             <div className="gx-row d-flex justify-content-between gap-24">
@@ -440,13 +439,6 @@ function Contact() {
                                             </div>
                                         </div>
                                     </section>
-
-                                    {/* <script>
-    AOS.init({
-        duration: 1500,
-        once: true,
-
-    });</script>       */}
                                 </div>
                             </div>
                         </div>
