@@ -101,7 +101,7 @@ function Projects() {
                                                     <div className="project-img">
                                                         <img
                                                             decoding="async"
-                                                            src="/assets/images/uploads/2023/04/project3.png"
+                                                            src="/assets/images/uploads/2023/04/project3.webp"
                                                             alt="Project"
                                                         />
                                                     </div>
@@ -435,7 +435,7 @@ function Projects() {
                                                                         <div className="project-img">
                                                                             <img
                                                                                 decoding="async"
-                                                                                src="/assets/images/uploads/2023/04/project11.png"
+                                                                                src="/assets/images/uploads/2023/04/project11.webp"
                                                                                 className="border border-2"
                                                                                 alt="Project"
                                                                             />
