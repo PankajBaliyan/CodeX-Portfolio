@@ -50,7 +50,7 @@ export class About extends Component {
                                                                         <div className="image-inner">
                                                                             <img
                                                                                 decoding="async"
-                                                                                src="/assets/images/uploads/2023/04/me.jpg"
+                                                                                src="/assets/images/uploads/2023/04/me.webp"
                                                                                 alt="About Me"
                                                                             />
                                                                         </div>

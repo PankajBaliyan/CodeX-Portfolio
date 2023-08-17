@@ -11,7 +11,7 @@ function Credentials() {
                             <div className="shadow-box">
                                 <div className="img-box">
                                     <img
-                                        src="/assets/images/me2.jpg"
+                                        src="/assets/images/me2.webp"
                                         alt="About Me"
                                     />
                                 </div>
