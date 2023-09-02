@@ -20,7 +20,7 @@ function Footer() {
                             id="menu-item-1856"
                             className="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-13 current_page_item menu-item-1856 active"
                         >
-                            <Link className="logo" to="/home">
+                            <Link to="/">
                                 Home
                             </Link>
                         </li>
