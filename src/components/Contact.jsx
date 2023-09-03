@@ -156,12 +156,7 @@ function Contact() {
                                                                     Location
                                                                 </span>
                                                                 <h4>
-                                                                    Muzaffarnagar,{' '}
-                                                                    <br />
-                                                                    Uttar
-                                                                    Pradesh,{' '}
-                                                                    <br />
-                                                                    India
+                                                                    Muzaffarnagar, Uttar Pradesh,India
                                                                 </h4>
                                                             </div>
                                                         </li>

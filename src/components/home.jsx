@@ -46,7 +46,7 @@ export default function Home(props) {
                                                 data-aos="zoom-in"
                                                 className="about-me-box-wrap"
                                             >
-                                                <div className="about-me-box shadow-box">
+                                                <div className="about-me-box shadow-box about-me-box-921">
                                                     <Link
                                                         className="overlay-link"
                                                         to="/about"
@@ -397,7 +397,7 @@ export default function Home(props) {
                                                         data-aos="zoom-in"
                                                         className="flex-1 about-services-box-wrap"
                                                     >
-                                                        <div className="about-services-box info-box shadow-box h-full">
+                                                        <div className="about-services-box info-box shadow-box h-full about-services-box-1">
                                                             <Link
                                                                 to="/service"
                                                                 className="overlay-link"
@@ -412,7 +412,7 @@ export default function Home(props) {
                                                                 <i className="iconoir-computer"></i>
                                                             </div>
                                                             <div className="d-flex align-items-center justify-content-between">
-                                                                <div className="infos">
+                                                                <div className="infos margin-768">
                                                                     <h4>
                                                                         SPECIALIZATION
                                                                     </h4>
@@ -530,7 +530,7 @@ export default function Home(props) {
                                                 data-aos="zoom-in"
                                                 className="about-client-box-wrap"
                                             >
-                                                <div className="about-client-box info-box shadow-box">
+                                                <div className="about-client-box about-client-box1 info-box shadow-box">
                                                     <div className="clients d-flex align-items-start gap-24 justify-content-center">
                                                         <div className="client-item">
                                                             <h1>03</h1>

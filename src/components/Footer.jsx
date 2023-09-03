@@ -11,7 +11,7 @@ function Footer() {
                             width="100"
                             height="40"
                             viewBox="0 0 370 132.33255242168946"
-                            class="css-1j8o68f"
+                            className="css-1j8o68f"
                         >
                             <defs id="SvgjsDefs3411"></defs>
                             <g
