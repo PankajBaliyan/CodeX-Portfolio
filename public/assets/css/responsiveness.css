@@ -1,12 +1,7 @@
 /* Extra Small Devices (portrait phones) */
 @media only screen and (max-width: 320px) {
-    /* Your styles for extra small devices here */
     .contact-area .contact-infos .contact-details li .right h4 {
         font-size: 14px;
-    }
-
-    .credential-area .skills-wrap .skill-item .name {
-        width: 290px;
     }
 
     .service-area .service-content-wrap .service-content-inner .service-item {
@@ -39,11 +34,41 @@
         flex-direction: column;
         align-items: center;
     }
+
+    .banner {
+        width: 100%;
+    }
+
+    .elementor-widget-wrap {
+        padding-right: 0px;
+    }
+
+    .info-box {
+        width: 100%;
+    }
+
+    .d-grid {
+        display: grid !important;
+        justify-items: center;
+    }
+
+    .skill-item {
+        text-align: center;
+    }
+
+    .contact-details > li {
+        text-align: center;
+    }
+
+    .contact-infos > .social-links {
+        display: flex !important;
+        flex-direction: row;
+        justify-content: center;
+    }
 }
 
 /* Small Devices (landscape phones) */
 @media only screen and (min-width: 321px) and (max-width: 480px) {
-    /* Your styles for small devices here */
     .credential-area {
         padding-top: 15px;
     }
@@ -66,11 +91,41 @@
         flex-direction: column;
         align-items: center;
     }
+
+    .banner {
+        width: 100%;
+    }
+
+    .elementor-widget-wrap {
+        padding-right: 0px;
+    }
+
+    .info-box {
+        width: 100%;
+    }
+
+    .d-grid {
+        display: grid !important;
+        justify-items: center;
+    }
+
+    .skill-item {
+        text-align: center;
+    }
+
+    .contact-details > li {
+        text-align: center;
+    }
+
+    .contact-infos > .social-links {
+        display: flex !important;
+        flex-direction: row;
+        justify-content: center;
+    }
 }
 
 /* Medium Devices (tablets - portrait) */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-    /* Your styles for medium devices here */
     .credential-area > .container > .gx-row > .credential-sidebar-wrap {
         width: 350px;
         margin: auto;
@@ -84,11 +139,24 @@
         height: auto !important;
         width: auto !important;
     }
+
+    .d-grid {
+        display: grid !important;
+        justify-items: center;
+    }
 }
 
 @media only screen and (max-width: 768px) {
     .contact-infos {
         width: 100% !important;
+    }
+
+    .container > .gx-row > .logo {
+        margin-left: 20px;
+    }
+
+    .contact-area .contact-infos {
+        width: 90% !important;
     }
 }
 
@@ -97,10 +165,13 @@
         height: auto !important;
         width: auto !important;
     }
+
+    .contact-area .contact-infos {
+        width: 500px !important;
+    }
 }
 
 @media only screen and (min-width: 600px) and (max-width: 768px) {
-    /* Your styles for medium devices here */
     .info-box > img {
         width: 43%;
     }
@@ -112,8 +183,12 @@
 }
 
 /* Medium Devices (tablets - landscape) */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .margin-768 {
+        margin-top: 32px;
+    }
+}
 @media only screen and (min-width: 769px) and (max-width: 1024px) {
-    /* Your styles for medium devices here */
     .credential-area .credential-sidebar .shadow-box {
         padding: 12px 21px 12px 21px;
     }
@@ -150,17 +225,12 @@
     .projects-area .project-item .project-info p {
         font-size: 12px;
     }
-}
-
-@media only screen and (min-width: 921px) and (max-width: 920px) {
-    /* Your styles for medium devices here */
-    .info-box > .imgauto {
-        width: auto;
+    .margin-768 {
+        margin-top: 32px;
     }
 }
 
 @media only screen and (min-width: 921px) and (max-width: 1024px) {
-    /* Your styles for medium devices here */
     .infos h1 {
         font-size: 20px !important;
     }
@@ -176,12 +246,24 @@
     .about-area .about-me-box .infos .about-btn {
         bottom: 5px;
     }
+
+    .info-box.about-contact-box {
+        padding-top: 115px !important;
+    }
+    .about-me-box-921 {
+        height: 327px;
+        display: flex !important;
+        align-items: center !important;
+    }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 920px) {
-    /* Your styles for medium devices here */
     .mt-26 {
         margin-top: 26px;
+    }
+
+    .info-box.about-contact-box {
+        padding-top: 115px !important;
     }
 }
 
@@ -211,9 +293,23 @@
     }
 }
 
+@media only screen and (min-width: 1025px) and (max-width: 1091px) {
+    .about-services-box-1 {
+        height: 236px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .about-client-box1 {
+        height: 243px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
 /* Large Devices (small desktops) */
 @media only screen and (min-width: 1091px) and (max-width: 1154px) {
-    /* Your styles for large devices here */
     .about-area .about-me-box .infos h4 {
         font-size: 11px;
     }
@@ -221,13 +317,26 @@
     .about-area .about-me-box .infos h1 {
         font-size: 25px;
     }
+
+    .about-me-box {
+        height: 337px !important;
+        display: flex !important;
+        align-items: center !important;
+    }
+}
+
+@media only screen and (min-width: 1154px) and (max-width: 1366px) {
+    .about-me-box {
+        height: 337px !important;
+        display: flex !important;
+        align-items: center !important;
+    }
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1366px) {
-    /* Your styles for large devices here */
     .info-box.about-contact-box {
         padding-bottom: 29px;
-        padding-top: 75px;
+        padding-top: 106px !important;
     }
 
     .spacing-1060 {
@@ -242,11 +351,27 @@
         height: auto !important;
         width: auto !important;
     }
+
+    .info-box > div {
+        margin-top: 27px;
+    }
+
+    .about-me-box {
+        height: 328px;
+        display: flex !important;
+        align-items: center !important;
+    }
+
+    .info-box .inner-profile-icons {
+        margin-bottom: 0px !important;
+    }
+
+    .info-box > div {
+        margin-top: 7px;
+    }
 }
 
 @media only screen and (min-width: 1025px) and (max-width: 1038px) {
-    /* Your styles for large devices here */
-
     .about-area .about-me-box .infos h1 {
         font-size: 29px;
     }
@@ -260,7 +385,7 @@
 @media only screen and (min-width: 1100px) and (max-width: 1366px) {
     .info-box.about-contact-box {
         padding-bottom: 55px;
-        padding-top: 95px;
+        padding-top: 90px !important;
     }
 
     .info-box .inner-profile-icons {
@@ -283,19 +408,4 @@
         height: auto !important;
         width: auto !important;
     }
-}
-
-/* Large Devices (medium desktops) */
-@media only screen and (min-width: 1367px) and (max-width: 1600px) {
-    /* Your styles for large devices here */
-}
-
-/* Large Devices (large desktops) */
-@media only screen and (min-width: 1601px) and (max-width: 1920px) {
-    /* Your styles for large devices here */
-}
-
-/* Extra Large Devices (extra large desktops) */
-@media only screen and (min-width: 1921px) {
-    /* No need all items are already set  */
 }
