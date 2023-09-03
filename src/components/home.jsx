@@ -207,7 +207,7 @@ export default function Home(props) {
 
                                                                     <img
                                                                         decoding="async"
-                                                                        src="/assets/images/uploads/2023/04/sign.png"
+                                                                        src="/assets/images/uploads/2023/04/sign.webp"
                                                                         alt="Sign"
                                                                         className="imgauto"
                                                                     />

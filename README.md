@@ -3,7 +3,7 @@
 Welcome to my personal portfolio website! This project showcases my skills, projects, and experiences as a web developer. It's built using React and includes features such as responsive design, email integration, and more.
 <br>
 
-Live Preview <a href="https://gridx-portfolio.onrender.com/" target="_blank">Click Me 👇</a>
+Live Preview <a href="https://codex-portfolio.onrender.com" target="_blank">Click Me 👇</a>
 
 ## Table of Contents
 
@@ -43,13 +43,13 @@ Before you begin, ensure you have the following software installed:
 1. Clone this repository to your local machine:
 
     ```bash
-    git clone https://github.com/PankajBaliyan/GridX-Portfolio
+    git clone https://github.com/PankajBaliyan/CodeX-Portfolio.git
     ```
 
 2. Navigate to the project directory:
 
     ```bash
-    cd GridX-Portfolio
+    cd CodeX-Portfolio
     ```
 
 3. Install the project dependencies:
@@ -96,4 +96,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Preview
 
-![Preview](./gridx-portfolio.webp)
+![Preview](./CodeX-portfolio.webp)

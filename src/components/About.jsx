@@ -504,7 +504,8 @@ export class About extends Component {
 
                                                                         <img
                                                                             decoding="async"
-                                                                            src="/assets/images/uploads/2023/04/sign.png"
+                                                                            src="/assets/images/uploads/2023/04/sign.webp"
+                                                                            className='imgauto'
                                                                             alt="Sign"
                                                                         />
                                                                         <div className="d-flex align-items-center justify-content-between spacing-1060">

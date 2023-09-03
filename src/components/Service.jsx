@@ -447,8 +447,9 @@ function Service() {
 
                                                                     <img
                                                                         decoding="async"
-                                                                        src="/assets/images/uploads/2023/04/sign.png"
+                                                                        src="/assets/images/uploads/2023/04/sign.webp"
                                                                         alt="Sign"
+                                                                        className='imgauto'
                                                                     />
                                                                     <div className="d-flex align-items-center justify-content-between">
                                                                         <div className="infos">
