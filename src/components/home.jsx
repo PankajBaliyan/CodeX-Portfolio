@@ -11,6 +11,10 @@ export default function Home(props) {
         AOS.init();
         AOS.refresh();
     }, []);
+    const ChangePageTitle = (pageTitle) => {
+        document.title = pageTitle;
+    };
+    ChangePageTitle('Pankaj Portfolio');
     return (
         <section className="about-area">
             <div className="container">

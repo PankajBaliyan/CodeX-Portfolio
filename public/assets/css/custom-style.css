@@ -31,3 +31,7 @@
 .contact-area .contact-infos .contact-details li .right h4 {
     opacity: 0.9;
 }
+
+.navbar {
+    border-radius: 0 0 20px 20px;
+}

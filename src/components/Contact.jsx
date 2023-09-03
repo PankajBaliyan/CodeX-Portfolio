@@ -17,6 +17,11 @@ function Contact() {
     const [subject, setSubject] = useState('');
     const [message, setMessage] = useState('');
 
+    const ChangePageTitle = (pageTitle) => {
+        document.title = pageTitle;
+    };
+    ChangePageTitle('Portfolio - Contact');
+
     const handleSubmit = (e) => {
         e.preventDefault();
 

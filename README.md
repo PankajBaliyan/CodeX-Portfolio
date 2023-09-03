@@ -7,15 +7,15 @@ Live Preview <a href="https://gridx-portfolio.onrender.com/" target="_blank">Cli
 
 ## Table of Contents
 
-- [Introduction](#introduction)
-- [Features](#features)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Configuration](#configuration)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+-   [Introduction](#introduction)
+-   [Features](#features)
+-   [Getting Started](#getting-started)
+-   [Prerequisites](#prerequisites)
+-   [Installation](#installation)
+-   [Configuration](#configuration)
+-   [Usage](#usage)
+-   [Contributing](#contributing)
+-   [License](#license)
 
 ## Introduction
 
@@ -23,11 +23,11 @@ This personal portfolio website serves as an online showcase of my work, skills,
 
 ## Features
 
-- **Responsive Design**: The website is designed to be responsive and adaptable to various screen sizes, ensuring a consistent user experience across devices.
-- **Project Showcase**: Showcase your projects, skills, and achievements with detailed descriptions and visuals.
-- **Email Integration**: Allow visitors to easily contact you through the website using a contact form.
-- **Route Navigation**: Implement smooth navigation between different sections of the website using React Router.
-- **Error Handling**: Handle route errors and provide a user-friendly experience using custom error handling.
+-   **Responsive Design**: The website is designed to be responsive and adaptable to various screen sizes, ensuring a consistent user experience across devices.
+-   **Project Showcase**: Showcase your projects, skills, and achievements with detailed descriptions and visuals.
+-   **Email Integration**: Allow visitors to easily contact you through the website using a contact form.
+-   **Route Navigation**: Implement smooth navigation between different sections of the website using React Router.
+-   **Error Handling**: Handle route errors and provide a user-friendly experience using custom error handling.
 
 ## Getting Started
 
@@ -35,38 +35,38 @@ This personal portfolio website serves as an online showcase of my work, skills,
 
 Before you begin, ensure you have the following software installed:
 
-- [Node.js](https://nodejs.org/) (v14 or higher)
-- [npm](https://www.npmjs.com/) (comes with Node.js)
+-   [Node.js](https://nodejs.org/) (v14 or higher)
+-   [npm](https://www.npmjs.com/) (comes with Node.js)
 
 ### Installation
 
 1. Clone this repository to your local machine:
 
-   ```bash
-   git clone https://github.com/PankajBaliyan/GridX-Portfolio
-   ```
+    ```bash
+    git clone https://github.com/PankajBaliyan/GridX-Portfolio
+    ```
 
 2. Navigate to the project directory:
 
-   ```bash
-   cd GridX-Portfolio
-   ```
+    ```bash
+    cd GridX-Portfolio
+    ```
 
 3. Install the project dependencies:
 
-   ```bash
-   npm install
-   ```
+    ```bash
+    npm install
+    ```
 
 ### Configuration
 
 1. Rename the `.env.example` file to `.env` and update the following variables with your EmailJS credentials:
 
-   ```
-   REACT_APP_SERVICE_ID=your-service-id
-   REACT_APP_TEMPLATE_ID=your-template-id
-   REACT_APP_USER_ID=your-user-id
-   ```
+    ```
+    REACT_APP_SERVICE_ID=your-service-id
+    REACT_APP_TEMPLATE_ID=your-template-id
+    REACT_APP_USER_ID=your-user-id
+    ```
 
 2. Customize the content, projects, and sections of the website in the respective components.
 
@@ -95,4 +95,5 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 This project is licensed under the [MIT License](LICENSE).
 
 ## Preview
+
 ![Preview](./gridx-portfolio.webp)

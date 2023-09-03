@@ -1,7 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+import 'react-lazy-load-image-component/src/effects/blur.css';
 
 function Projects() {
+    const ChangePageTitle = (pageTitle) => {
+        document.title = pageTitle;
+    };
+    ChangePageTitle('Portfolio - Projects');
     return (
         <section className="projects-area">
             <div className="container">
@@ -62,9 +68,12 @@ function Projects() {
                                                     ></Link>
 
                                                     <div className="project-img">
-                                                        <img
+                                                        <LazyLoadImage
+                                                            effect="blur"
+                                                            height="190px"
+                                                            width="330px"
                                                             decoding="async"
-                                                            className="border border-2"
+                                                            className="border border-2 project-img-responsive"
                                                             src="/assets/images/uploads/2023/04/project1.webp"
                                                             alt="Project"
                                                         />
@@ -99,8 +108,12 @@ function Projects() {
                                                     ></Link>
 
                                                     <div className="project-img">
-                                                        <img
+                                                        <LazyLoadImage
+                                                            effect="blur"
+                                                            height="190px"
+                                                            width="330px"
                                                             decoding="async"
+                                                            className="border border-2 project-img-responsive"
                                                             src="/assets/images/uploads/2023/04/project3.webp"
                                                             alt="Project"
                                                         />
@@ -135,10 +148,13 @@ function Projects() {
                                                     ></Link>
 
                                                     <div className="project-img">
-                                                        <img
+                                                        <LazyLoadImage
+                                                            effect="blur"
+                                                            height="190px"
+                                                            width="330px"
                                                             decoding="async"
                                                             src="/assets/images/uploads/2023/04/project7.webp"
-                                                            className="border border-2"
+                                                            className="border border-2 project-img-responsive"
                                                             alt="Project"
                                                         />
                                                     </div>
@@ -173,10 +189,13 @@ function Projects() {
                                                     ></Link>
 
                                                     <div className="project-img">
-                                                        <img
+                                                        <LazyLoadImage
+                                                            effect="blur"
+                                                            height="190px"
+                                                            width="330px"
                                                             decoding="async"
                                                             src="/assets/images/uploads/2023/04/project10.png"
-                                                            className="border border-2"
+                                                            className="border border-2 project-img-responsive"
                                                             alt="Project"
                                                         />
                                                     </div>
@@ -270,10 +289,13 @@ function Projects() {
                                                                         ></Link>
 
                                                                         <div className="project-img">
-                                                                            <img
+                                                                            <LazyLoadImage
+                                                                                effect="blur"
+                                                                                height="190px"
+                                                                                width="330px"
                                                                                 decoding="async"
                                                                                 src="/assets/images/uploads/2023/04/project2.webp"
-                                                                                className="border border-2"
+                                                                                className="border border-2 project-img-responsive"
                                                                                 alt="Project"
                                                                             />
                                                                         </div>
@@ -326,10 +348,13 @@ function Projects() {
                                                                         ></Link>
 
                                                                         <div className="project-img">
-                                                                            <img
+                                                                            <LazyLoadImage
+                                                                                effect="blur"
+                                                                                height="190px"
+                                                                                width="330px"
                                                                                 decoding="async"
                                                                                 src="/assets/images/uploads/2023/04/project5.png"
-                                                                                className="border border-2"
+                                                                                className="border border-2 project-img-responsive"
                                                                                 alt="Project"
                                                                             />
                                                                         </div>
@@ -380,10 +405,13 @@ function Projects() {
                                                                         ></Link>
 
                                                                         <div className="project-img">
-                                                                            <img
+                                                                            <LazyLoadImage
+                                                                                effect="blur"
+                                                                                height="190px"
+                                                                                width="330px"
                                                                                 decoding="async"
                                                                                 src="/assets/images/uploads/2023/04/project8.webp"
-                                                                                className="border border-2"
+                                                                                className="border border-2 project-img-responsive"
                                                                                 alt="Project"
                                                                             />
                                                                         </div>
@@ -433,10 +461,13 @@ function Projects() {
                                                                         ></Link>
 
                                                                         <div className="project-img">
-                                                                            <img
+                                                                            <LazyLoadImage
+                                                                                effect="blur"
+                                                                                height="190px"
+                                                                                width="330px"
                                                                                 decoding="async"
                                                                                 src="/assets/images/uploads/2023/04/project11.webp"
-                                                                                className="border border-2"
+                                                                                className="border border-2 project-img-responsive"
                                                                                 alt="Project"
                                                                             />
                                                                         </div>
@@ -496,10 +527,13 @@ function Projects() {
                                                                         ></Link>
 
                                                                         <div className="project-img">
-                                                                            <img
+                                                                            <LazyLoadImage
+                                                                                effect="blur"
+                                                                                height="190px"
+                                                                                width="330px"
                                                                                 decoding="async"
                                                                                 src="/assets/images/uploads/2023/04/project4.webp"
-                                                                                className="border border-2"
+                                                                                className="border border-2 project-img-responsive"
                                                                                 alt="Project"
                                                                             />
                                                                         </div>
@@ -549,10 +583,13 @@ function Projects() {
                                                                         ></Link>
 
                                                                         <div className="project-img">
-                                                                            <img
+                                                                            <LazyLoadImage
+                                                                                effect="blur"
+                                                                                height="190px"
+                                                                                width="330px"
                                                                                 decoding="async"
                                                                                 src="/assets/images/uploads/2023/04/project6.webp"
-                                                                                className="border border-2"
+                                                                                className="border border-2 project-img-responsive"
                                                                                 alt="Project"
                                                                             />
                                                                         </div>
@@ -602,10 +639,13 @@ function Projects() {
                                                                         ></Link>
 
                                                                         <div className="project-img">
-                                                                            <img
+                                                                            <LazyLoadImage
+                                                                                effect="blur"
+                                                                                height="190px"
+                                                                                width="330px"
                                                                                 decoding="async"
                                                                                 src="/assets/images/uploads/2023/04/project9.webp"
-                                                                                className="border border-2"
+                                                                                className="border border-2 project-img-responsive"
                                                                                 alt="Project"
                                                                             />
                                                                         </div>

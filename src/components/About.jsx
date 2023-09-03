@@ -3,6 +3,10 @@ import { Link } from 'react-router-dom';
 
 export class About extends Component {
     render() {
+        const ChangePageTitle = (pageTitle) => {
+            document.title = pageTitle;
+        };
+        ChangePageTitle('Portfolio - About');
         return (
             <section className="about-area">
                 <div className="container">

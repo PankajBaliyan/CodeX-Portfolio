@@ -2,6 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Service() {
+    const ChangePageTitle = (pageTitle) => {
+        document.title = pageTitle;
+    };
+    ChangePageTitle('Portfolio - Services');
     return (
         <section className="service-area">
             <div className="container">

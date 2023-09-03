@@ -2,6 +2,10 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 function Credentials() {
+    const ChangePageTitle = (pageTitle) => {
+        document.title = pageTitle;
+    };
+    ChangePageTitle('Portfolio - Credentials');
     return (
         <section className="credential-area">
             <div className="container">
